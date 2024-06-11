@@ -1,0 +1,18 @@
+For Consumer Package:
+    Download Poker_V1.0.tar.gz
+    Use command "tar -xvzf Poker_V1.0.tar.gz"
+    Use command "cd Poker_V1.0.tar.gz"
+    Use command "cd bin"
+    Use command "./poker_server <port number> Texas <max players> <min bet>" to start a Texas Hold'Em server
+    Or use command "./poker_server <port number> Blackjack 1 <min bet>" to start a Blackjack server
+    Use command "./poker_client <server name> <port number>" to connect to the server as a player
+
+For Source Code Package:
+    Download Poker_V1.0_src.tar.gz
+    Use command "tar -xvzf Poker_V1.0_src.tar.gz"
+    Use command "cd Poker_V1.0_src"
+    Use command "make"
+    Use command "cd bin"
+    Use command "./poker_server <port number> Texas <max players> <min bet>" to start a Texas Hold'Em server
+    Or use command "./poker_server <port number> Blackjack 1 <min bet>" to start a Blackjack server
+    Use command "./poker_client <server name> <port number>" to connect to the server as a player
